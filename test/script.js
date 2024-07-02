@@ -1,4 +1,4 @@
-const mpc = require('mpc')
+const mpc = require('mpc-test-crypto')
 const dataKey = mpc.generate();
 console.log("Generate shard and recover key");
 console.log(dataKey);

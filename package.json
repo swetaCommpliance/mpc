@@ -1,9 +1,9 @@
 {
-  "name": "mpc",
+  "name": "mpc-test-crypto",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "git repository":"https://github.com/swetaCommpliance/mpc.git", 
+  "git repository": "https://github.com/swetaCommpliance/mpc.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -16,5 +16,9 @@
     "eth-crypto": "^2.6.0",
     "save": "^2.9.0",
     "shamirs-secret-sharing": "^1.0.1"
-    }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
